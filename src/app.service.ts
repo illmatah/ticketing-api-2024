@@ -7,6 +7,6 @@ export class AppService {
   }
 
   getPersonalizedHello(name: string, day: string): string {
-    return `Hello ${name}, have a nice ${day}!`;
+    return `Hello ${name}, have a nice ${day}`;
   }
 }
